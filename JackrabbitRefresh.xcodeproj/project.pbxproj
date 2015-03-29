@@ -26,6 +26,7 @@
 		396CADF618B3DC1700039F58 /* compass_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 396CADF418B3DC1700039F58 /* compass_background@2x.png */; };
 		396CADF818B3EDFE00039F58 /* map-background-fade@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 396CADF718B3EDFE00039F58 /* map-background-fade@2x.png */; };
 		396CADFA18B3EE3700039F58 /* map-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 396CADF918B3EE3700039F58 /* map-background@2x.png */; };
+		E4CBE8BC1AC7E07B0012723C /* JRRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CBE8BB1AC7E07B0012723C /* JRRefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		396CADF418B3DC1700039F58 /* compass_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compass_background@2x.png"; sourceTree = "<group>"; };
 		396CADF718B3EDFE00039F58 /* map-background-fade@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-background-fade@2x.png"; sourceTree = "<group>"; };
 		396CADF918B3EE3700039F58 /* map-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-background@2x.png"; sourceTree = "<group>"; };
+		E4CBE8BA1AC7E07B0012723C /* JRRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRRefreshControl.h; sourceTree = "<group>"; };
+		E4CBE8BB1AC7E07B0012723C /* JRRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRRefreshControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				396CADED18B3D3A700039F58 /* JRTableViewController.h */,
 				396CADEE18B3D3A700039F58 /* JRTableViewController.m */,
 				396CADEC18B3D35E00039F58 /* Common.h */,
+				E4CBE8BA1AC7E07B0012723C /* JRRefreshControl.h */,
+				E4CBE8BB1AC7E07B0012723C /* JRRefreshControl.m */,
 				396CADF318B3DC1700039F58 /* compass_spinner@2x.png */,
 				396CADF418B3DC1700039F58 /* compass_background@2x.png */,
 				396CADF718B3EDFE00039F58 /* map-background-fade@2x.png */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CBE8BC1AC7E07B0012723C /* JRRefreshControl.m in Sources */,
 				396CADC818B3D2F900039F58 /* JRAppDelegate.m in Sources */,
 				396CADEF18B3D3A700039F58 /* JRTableViewController.m in Sources */,
 				396CADCE18B3D2FA00039F58 /* JRViewController.m in Sources */,
@@ -485,6 +491,7 @@
 				396CADE818B3D2FA00039F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		396CADE918B3D2FA00039F58 /* Build configuration list for PBXNativeTarget "JackrabbitRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +500,7 @@
 				396CADEB18B3D2FA00039F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
